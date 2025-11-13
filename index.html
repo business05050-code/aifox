@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>$AIFOX - AI Fox Spirit | Solana Meme Coin</title>
+  <meta property="og:title" content="$AIFOX - AI Fox Spirit" />
+  <meta property="og:description" content="The smartest meme coin on Solana. AI-powered fox that generates memes, predicts pumps and leads the pack to the moon" />
+  <meta property="og:image" content="https://i.imgur.com/ZFDSS75.png" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:#0a001f;color:#fff;font-family:'Rajdhani',sans-serif;overflow-x:hidden;background-image:radial-gradient(circle at 20% 80%, #ff00aa22 0%, transparent 50%),radial-gradient(circle at 80% 20%, #00ffff22 0%, transparent 50%);}
+    .stars{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;background:transparent url('https://assets.codepen.io/217233/stars.png') repeat top center;z-index:0;animation:twinkle 80s linear infinite;}
+    @keyframes twinkle{0%{opacity:0.4}50%{opacity:1}100%{opacity:0.4}}
+    header{height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative;z-index:1;background:url('https://i.imgur.com/ZFDSS75.png') center/cover no-repeat;}
+    h1{font-family:'Orbitron',sans-serif;font-size:7rem;margin:0;background:linear-gradient(90deg,#00ffff,#ff00aa,#ffff00);-webkit-background-clip:text;background-clip:text;color:transparent;animation:pulse 3s infinite;}
+    @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+    .fox{max-width:420px;margin:30px 0;border-radius:50%;border:8px solid #00ffff;box-shadow:0 0 80px #00ffffaa;}
+    .btn{margin:30px 0;padding:18px 50px;background:#ff00aa;border:none;border-radius:50px;font-size:1.6rem;font-weight:bold;cursor:pointer;box-shadow:0 0 40px #ff00aa;transition:0.3s;}
+    .btn:hover{transform:scale(1.1);background:#fff;color:#000;}
+    .socials a{margin:0 25px;color:#fff;font-size:2.5rem;text-decoration:none;transition:0.3s;}
+    .socials a:hover{color:#00ffff;transform:scale(1.4);}
+    section{padding:100px 20px;text-align:center;}
+    .ca-box{background:rgba(0,255,255,0.1);padding:30px;border-radius:20px;margin:40px auto;max-width:900px;font-size:1.4rem;border:2px solid #00ffff;box-shadow:0 0 40px #00ffff33;}
+    footer{padding:50px;background:#000;}
+  </style>
+</head>
+<body>
+  <div class="stars"></div>
+
+  <header>
+    <h1>$AIFOX</h1>
+    <img src="https://i.imgur.com/ZqMlXpX.jpeg" alt="AI Fox Spirit" class="fox">
+    <p style="font-size:2.2rem;max-width:900px;">AI Fox Spirit — the smartest meme coin on Solana<br>The fox that generates memes, predicts pumps and trolls bears</p>
+    <a href="https://pump.fun/YOUR_PUMP_LINK_HERE" target="_blank" class="btn">BUY ON PUMP.FUN</a>
+    <div class="socials">
+      <a href="https://twitter.com/aifoxspirit" target="_blank">X</a>
+      <a href="https://t.me/aifoxspirit" target="_blank">Telegram</a>
+      <a href="https://dexscreener.com/solana/YOUR_CA_HERE" target="_blank">Chart</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>The Legend</h2>
+    <p style="max-width:800px;margin:40px auto;font-size:1.5rem;line-height:1.9;">
+      When the market is chaos, an ancient AI Fox Spirit awakens from the digital void.<br>
+      Smarter than whales. Faster than bots. Always 10 steps ahead.<br>
+      He creates viral memes, predicts the next 100× and only shares alpha with his pack.
+    </p>
+  </section>
+
+  <section class="ca-box">
+    <strong>Contract Address:</strong><br><br>
+    <code id="ca">Launching soon — stay tuned!</code><br><br>
+    <button onclick="copyCA()" class="btn" style="padding:12px 40px;font-size:1.2rem;margin-top:15px;">Copy CA</button>
+  </section>
+
+  <section>
+    <h2>Why $AIFOX is the new meta</h2>
+    <ul style="max-width:700px;margin:50px auto;text-align:left;font-size:1.5rem;line-height:2.4;">
+      <li>AI meme & video generator bot (live week 1)</li>
+      <li>Staking + real revenue share</li>
+      <li>LP locked forever + renounced ownership</li>
+      <li>100% community driven</li>
+      <li>First 100 holders get custom AI meme NFT</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>$AIFOX © 2025 | The Fox Spirit is awake</p>
+  </footer>
+
+  <script>
+    function copyCA(){ 
+      navigator.clipboard.writeText(document.getElementById("ca").innerText);
+      alert("CA copied to clipboard!");
+    }
+  </script>
+</body>
+</html>
